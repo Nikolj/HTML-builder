@@ -7,7 +7,8 @@
 - Запрещается использование любых сторонних модулей
 - Каждое из заданий должно запускаться командой node <имя папки задания> выполненной в корневой директории
 - Запрещается использование синхронных функций модуля fs такие как ```fs.statSync(path[, options])```, 
-```fs.readFileSync(path[, options])``` и другие находящиеся в разделе [synchronous API](https://nodejs.org/api/fs.html#fs_synchronous_api)
+```fs.readFileSync(path[, options])``` и другие находящиеся в разделе [synchronous API](https:onst {stdin, stdout} = process;
+stdin.on('data', data => stdout.write(data));//nodejs.org/api/fs.html#fs_synchronous_api)
 
 ### Требования
 
